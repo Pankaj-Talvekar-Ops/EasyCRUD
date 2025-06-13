@@ -56,3 +56,7 @@ EXIT;
 3. DB_PASS
 4. DB_PORT
 5. DB_NAME
+
+## 5. To Access RDS database from mariadb-client
+
+mysql -h <rds endpoint> -u <username> -p <passward>
